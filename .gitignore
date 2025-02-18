@@ -1,1 +1,18 @@
 *.toml
+
+# Binaries
+build/
+leinao-docs-sync-bot
+
+# Config files
+configs/config.toml
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Dependencies
+vendor/
