@@ -2,6 +2,7 @@ package main
 
 import (
 	"zaixi.dev/leinao-docs-sync-bot/configs"
+	"zaixi.dev/leinao-docs-sync-bot/internal/utils/logger"
 )
 
 func main(){
@@ -9,5 +10,6 @@ func main(){
 	if err != nil {
 		panic(err)
 	}
-	println(config.Github.GithubWebhookSecret)
+	logger.InitLogger()
+	logger.Info("config: " + config.String())
 }

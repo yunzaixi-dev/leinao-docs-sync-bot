@@ -1,3 +1,5 @@
 [github]
 # Github Webhook Secret for validating incoming webhooks
 github_webhook_secret = "your-webhook-secret-here"
+github_repo_from = "leinao"
+github_repo_to = "leinao"
