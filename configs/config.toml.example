@@ -1,0 +1,3 @@
+[github]
+# Github Webhook Secret for validating incoming webhooks
+github_webhook_secret = "your-webhook-secret-here"
